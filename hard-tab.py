@@ -1,0 +1,2 @@
+def Foo():
+	print("foo")
