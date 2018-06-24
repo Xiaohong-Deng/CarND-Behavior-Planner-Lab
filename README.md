@@ -10,4 +10,4 @@ It's a quiz in Udacity Self-Driving Car Program. Comments are littered across th
     4. generate trajectory according to the chosen state
     5. update the attributes like velocity or acceleration for all the cars
 
-Note in practice the maneuvers are the real product of behavior planning module. The real trajectory of the ego car is generated based on that. Often there are a set of trajectories in which you need to pick one according to a cost function.
+Note in practice the maneuvers are the real product of behavior planning module. The real trajectory of the ego car is generated based on that using a trajectory generator. Given a fixed set of maneuvers (a chosen state), often there are a set of trajectories in which you need to pick one according to a cost function (not the same one you use in behavior planning module).
